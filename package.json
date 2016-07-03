@@ -4,7 +4,7 @@
   "description": "nodejs regex use easy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --watch ./test"
   },
   "repository": {
     "type": "git",
