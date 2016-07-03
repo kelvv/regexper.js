@@ -4,7 +4,7 @@
   "description": "nodejs regex use easy",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --watch ./test"
+    "test": "./node_modules/mocha/bin/mocha ./test"
   },
   "repository": {
     "type": "git",
