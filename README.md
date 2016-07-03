@@ -6,7 +6,9 @@ node.js regex use easy
 
 # Installation
 
+```
 using npm (the recommended way):
+```
 
 $ npm install regexper.js --save
 
