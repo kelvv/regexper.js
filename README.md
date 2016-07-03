@@ -1,6 +1,2 @@
-# regexper.js 
-
-
-[![Build Status](https://travis-ci.org/kelvv/regexper.js)](https://travis-ci.org/kelvv/regexper.js.svg?branch=master)
-
+# regexper.js
 node.js regex use easy
