@@ -16,16 +16,15 @@ $ npm install regexper.js --save
 # Usage
 
 ```
-var Regex = require('../');
+const Regex = require('regexper.js');
 
-var regex = new Regex('(W)(1)(2)3','ig');
+let regex = new Regex('(W)(1)(2)3','ig');  
 
 let match = regex.match('wWW')
 
 /* match : {
               value : string
               index : number,
-              input : string,
               groups: [{
                 value : string
               }]

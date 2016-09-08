@@ -45,7 +45,6 @@ Regex.prototype.match = function (str) {
     var result = {};
     result.value = match[0];
     result.index = match.index;
-    result.input = match.input;
     result.groups = [];
     for(i=1;i<match.length;i++){
         result.groups.push({
@@ -70,7 +69,6 @@ Regex.prototype.matches = function (str) {
         }
         matchObj.groups = [];
         matchObj.index = match.index;
-        matchObj.input = match.input;
         for(var i=1;i<match.length;i++){
             matchObj.groups.push({
                 value : match[i]
@@ -103,7 +101,6 @@ Regex.prototype.replace = function (str,regexcer) {
         }
         matchObj.groups = [];
         matchObj.index = match.index;
-        matchObj.input = match.input;
         for(var i=1;i<match.length;i++){
             matchObj.groups.push({
                 value : match[i]

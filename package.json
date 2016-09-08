@@ -1,6 +1,6 @@
 {
   "name": "regexper.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "nodejs regex use easy",
   "main": "index.js",
   "scripts": {
