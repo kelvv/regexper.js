@@ -63,6 +63,7 @@ Regex.prototype.match = function (str) {
 
 Regex.prototype.matches = function (str) {
     var result = [];
+    var match = {};
     while(match = this.regex.exec(str)){
         var matchObj = {
             value : match[0]
@@ -95,6 +96,7 @@ Regex.prototype.replace = function (str,regexcer) {
     var result = '';
     var index = 0;
     var lastWord = '';
+    var match = {};
     while(match = this.regex.exec(str)){
         var matchObj = {
             value : match[0]
