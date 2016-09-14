@@ -47,9 +47,7 @@ Regex.prototype.match = function (str) {
     result.index = match.index;
     result.groups = [];
     for(i=1;i<match.length;i++){
-        result.groups.push({
-            value : match[i]
-        })
+        result.groups.push(match[i])
     }
     return result;
 }
@@ -71,9 +69,7 @@ Regex.prototype.matches = function (str) {
         matchObj.groups = [];
         matchObj.index = match.index;
         for(var i=1;i<match.length;i++){
-            matchObj.groups.push({
-                value : match[i]
-            })
+            matchObj.groups.push(match[i])
         }
         result.push(matchObj);
         if(!this.regex.global){
@@ -104,9 +100,7 @@ Regex.prototype.replace = function (str,regexcer) {
         matchObj.groups = [];
         matchObj.index = match.index;
         for(var i=1;i<match.length;i++){
-            matchObj.groups.push({
-                value : match[i]
-            })
+            matchObj.groups.push(match[i])
         }
         var afterStr = '';
         var replaceValue = '';
