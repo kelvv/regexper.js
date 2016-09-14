@@ -25,9 +25,7 @@ let match = regex.match('wWW')
 /* match : {
               value : string
               index : number,
-              groups: [{
-                value : string
-              }]
+              groups: [string]
             }
 */
 
@@ -37,6 +35,7 @@ regex.replace('Visit Hello','visi');
 
 regex.replace('Visit Hello',(match)=>{
   let value = match.value;
+  let g1 = match.groups[1];
   return 'd';
 });
 ```
